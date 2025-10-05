@@ -46,4 +46,4 @@
 
 #Ansible developed by pythan developer's. if you want to develop a module , need to write pythan code.
 
-#Ansible mostly use configuration management 
+#Ansible mostly use configuration management. you can use configure windows server or mac server.
