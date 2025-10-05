@@ -1,7 +1,7 @@
 - name: play level variables
   hosts: local
   connection: local # Ansible is connecting to localhost
-  vars:
+  vars:                        #here define vars , we can use any task
    COURSE: Ansible
    DURATION: 10HRS
    Trainer: ravi
