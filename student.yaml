@@ -1,0 +1,40 @@
+- name: "lucifer"
+  dob: "01-01-01"
+  age: 21
+  addresses:
+     #Object
+  - doorNo: 24-2
+    street: "Shibuya Crossing"
+    city: "tokyo"
+    pin: 109
+    type: current
+
+  - doorNo: 24-3
+    street: "Shibuya Crossing"
+    city: "tokyo"
+    pin: 109
+    type: perm
+  skills:                           # list start " - "
+  - cloud-computing
+  - networking
+  - linux
+  - shell-scripting
+  - vm
+
+- name: lisa
+  dob: "02-02-02"
+  age: 22
+  addresses:
+  #object
+  - doorNo: 24-3
+    street: "Shibuya Crossing"
+    city: "tokyo"
+    pin: 109
+    type: current
+
+  - doorNo: 24-3
+    street: "Shibuya Crossing"
+    city: "tokyo"
+    pin: 109
+    type: perm 
+  
