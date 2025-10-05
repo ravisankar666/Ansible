@@ -14,7 +14,7 @@
     city: "tokyo"
     pin: 109
     type: perm
-  skills:                           # list start " - "
+  skills:                           # list start " - "  list of string's
   - cloud-computing
   - networking
   - linux

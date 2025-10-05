@@ -1,4 +1,4 @@
-- name: ping the server
+- name: "ping the server"
   hosts: frontend # which server you are connecting to 
   #list of task/collection/modules
   task:
