@@ -1,0 +1,21 @@
+{
+    "name": "lucifer",
+    "dob": "00-00-0000",
+    "addresses": [
+        {
+            "type": "current",
+            "doorno": "0-00",
+            "street": "Shibuya Crossing",
+            "city": "tokyo",
+            "pin": "109"
+        },
+         {
+            "type": "current",
+            "doorno": "0-00",
+            "street": "Omotesando",
+            "city": "tokyo",
+            "pin": "107"
+        }
+    ],
+    "skills": ["linux" , "shell-script" , "cloud-computing " , "networking" , "internet of thing"]
+}
