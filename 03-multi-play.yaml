@@ -18,3 +18,7 @@
   - name: PLAY-02 and TASK-02
     ansible.builtin.debug:
      msg : "hello PLAY-02 and TASK-02"           
+
+
+
+     # play is nothing but list of tasks execute in the remote server.
