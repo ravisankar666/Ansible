@@ -11,4 +11,4 @@
     
 
 
-    #task execute based on the condition. if it's less 10 it execute's.
+    #task execute based on the condition. if it's less 10 it execute's. or else skip the task.
