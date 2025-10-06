@@ -9,7 +9,7 @@
     when: ansible_os_family == "RedHat" #use  ansible_while referring the facts.
   
    
-  - name: install nginx if redhat
+  - name: install nginx if Debian
     ansible.builtin.apt:
      name: nginx
      state: latest
