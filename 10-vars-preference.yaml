@@ -1,14 +1,14 @@
 - name: vars preference
   hosts: local
   connection: local
-  vars:
-   NAME: from play level
-  vars_files:
-  - course.yaml
-  vars_prompt:
-  - name: NAME
-    prompt: what is your NAME ?
-    private : false
+  # vars:
+  #  NAME: from play level
+  # vars_files:
+  # - course.yaml
+  # vars_prompt:
+  # - name: NAME
+  #   prompt: what is your NAME ?
+  #   private : false
   tasks:
   - name: testing variable preference
     # vars:
@@ -17,7 +17,7 @@
        msg: "NAME: {{ NAME }}"
 
 
-# 1. args or command line
+# 1. args or command line  intial prefe
 #2. from prompt
 # 3. files
 # 4. prompt
