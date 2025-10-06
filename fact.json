@@ -1,4 +1,4 @@
-//    ansible pull the info from server's ,like this 
+//    ansible pull the info from server's ,like this and understand the server.
     "msg": {
         "all_ipv4_addresses": [
             "172.31.20.121"
