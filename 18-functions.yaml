@@ -92,3 +92,5 @@
      
      
      # in ansible facts === variables
+     #shell_module --> can access variable, pipes,redirections,shell enviroment etc.
+     # command_module--> a simple command no need of access to shell environment like variable , bash, piping etc
