@@ -9,7 +9,7 @@
     technologies: devops,linx,shell,Ansible #string
     name: "lisa"
     gmail: Info@GMAIL.COM
-    ip: 52.678.9798.98
+    ip: 192.168.0.1
     #dictioary
     tags:
      application: payment
