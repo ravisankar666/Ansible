@@ -9,7 +9,7 @@
     technologies: devops,linx,shell,Ansible #string
     name: "lisa"
     gmail: Info@GMAIL.COM
-    ip: 52.678.9798.98938
+    ip: 52.678.9798.98
     #dictioary
     tags:
      application: payment
@@ -61,7 +61,7 @@
     ansible.builtin.debug:
       msg: "{{ gmail | lower }}"    
 
-  - name: vaild ipaddress
+  - name: check ip is vaild or not
     ansible.builtin.debug:
       msg: "{{ ip | ansible.utils.ipv4 }}"
 
