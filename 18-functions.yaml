@@ -7,6 +7,7 @@
   connection: local
   vars:
     technologies: devops,linx,shell,Ansible #string
+    name: "lisa"
     #dictioary
     tags:
      application: payment
@@ -36,7 +37,7 @@
      msg: "tags map: {{ listtags | items2dict }}"   
 
   - name: read yaml and take into variable
-    ansible.builtin.set_fact:
+    ansible.builtin.set_fact:      #yaml content store into student_data.yaml file.
       student_yaml: "{{ lookup('file', 'student.yaml') | from_yaml }}"
       
   - name: convert yaml into json
@@ -47,7 +48,20 @@
     ansible.builtin.copy:
       dest: ./student-data.json
       content:  "{{ student_yaml | to_nice_json }}"
+    
+
+  - name: convert uppercase
+    ansible.builtin.debug:
+      msg: "{{ name | upper}}"  
 
 
-
+     
+     
+     
+     
+     
+     
+     
+     
+     
      # in ansible facts === variables
