@@ -7,6 +7,10 @@
   connection: local
   vars:
     technologies: devops,linx,shell,Ansible #string
+    #dictioary
+    tags:
+     application: payment
+     enviroment: dev
   tasks:
   - name: default variable
     ansible.builtin.debug:
@@ -16,3 +20,7 @@
   - name: convert string to list
     ansible.builtin.debug:
       msg: "Technology are : {{ technologies | split(',') }}"
+
+  - name: convert map to list
+    ansible.builtin.debug:    
+     msg: "Tags are: {{ tags | dict2items }}"
