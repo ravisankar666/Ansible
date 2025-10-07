@@ -63,7 +63,7 @@
 
   - name: check ip is vaild or not
     ansible.builtin.debug:
-      msg: "{{ myvar | ansible.utils.ipv4 }}"
+      msg: "{{ ip | ansible.utils.ipv4 }}"
 
      
      
