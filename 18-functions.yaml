@@ -8,6 +8,7 @@
   vars:
     technologies: devops,linx,shell,Ansible #string
     name: "lisa"
+    gmail: Info@GMAIL.COM
     #dictioary
     tags:
      application: payment
@@ -53,6 +54,11 @@
   - name: convert uppercase
     ansible.builtin.debug:
       msg: "{{ name | upper}}"  
+
+
+  - name: convert lowercase
+    ansible.builtin.debug:
+      msg: "{{ gmail | lower }}"    
 
 
      
