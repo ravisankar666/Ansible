@@ -2,7 +2,6 @@ variable "project_name" {
     default = "roboshop"
   
 }
-
 variable "environment" {
     default = "dev"
   
@@ -22,10 +21,19 @@ variable "sg_names" {
         #frontend loadbalancers
         "frontend-lb",
         # Backend ALB
-        "backend_alb"
+        "backend-alb"
 
     ]
 
     
+  
+}
+
+variable "zone-id" {
+  default = "Z0043313JVXOCUVVVC7F"
+}
+
+variable "domain_name" {
+    default = "daws86.fun"
   
 }
